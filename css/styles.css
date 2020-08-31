@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+h1 {
+    background-color: #800020;
+    color: #fff;
+    padding: 20px;
+}
+
+h2 {
+    color: #444444;
+}
+.container  {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #f2f3f4;
+    padding:  20px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(/img/gradient.jpg) repeat-y;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: auto;
+    }
+}
